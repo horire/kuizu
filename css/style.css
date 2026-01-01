@@ -1,0 +1,93 @@
+body {
+    background-color: #E6E5E4;
+    color: #25271F;
+}
+
+.delete {
+    display: none;
+}
+
+
+.Issue-img-ho {
+    max-width: 100%;
+    padding: 0 150px 50px;
+}
+
+.Issue-img-oo,
+.Issue-img-to {
+    display: none;
+}
+
+.Issue-img-section {
+    display: block;
+}
+
+.title-section {
+    text-align: center;
+    margin: 300px 250px 450px;
+}
+
+.about-site-text {
+    font-size: 18px;
+    padding-top: 15px;
+    border-top: 3px solid#769CBF;
+}
+
+.main-section {
+    border-radius: 20px;
+    border: 5px solid #769CBF;
+    background-color: #769cbf1f;
+    margin: 150px 250px 50px;
+    text-align: center;
+}
+
+#answer-input {
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+#answer-true{
+    margin-bottom: 0;
+}
+
+#answer-check {
+    border-radius: 5px;
+}
+
+.answer-last-true{
+   margin: 0 0 70px; 
+}
+
+.ho-title-section {
+    text-align: left;
+    margin: 50px 150px 0;
+
+
+}
+
+#retry {
+    margin-bottom: 70px;
+    padding: 8px 15px 8px;
+    border-radius: 10px;
+}
+
+#next {
+    margin-bottom: 70px;
+    padding: 8px 15px 8px;
+    border-radius: 10px;
+}
+
+#back{
+    margin-bottom: 70px;
+    padding: 8px 15px 8px;
+    border-radius: 10px;
+}
+
+#level {
+    margin-bottom: 0;
+}
+
+#level-icon {
+    margin-top: 0;
+    color: #769CBF;
+}

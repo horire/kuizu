@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIに打ち勝て！！県名当てクイズ</title>
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <section class="title-section">
+        <h1 class="site-title" id="site-title">
+            AIに打ち勝て!!  県名当てクイズ
+        </h1>
+        <p class="about-site-text" id="about-site-text">
+            ご覧いただきありがとうございます。本サイト『AIに打ち勝て!!  県名当てクイズ』はAIに作成出力させた日本各地の風景写真を見て何県かを当てるクイズサイトです!
+            問題数は全３問です。問題が進むにつれ難易度が上がっていきます。全問正解を目指し頑張ってください!
+            それでは画面をスクロールするとクイズ画面です。
+        </p>
+    </section>
+    <section class="main-section">
+        <section class="Issue-img-section">
+            <div class="ho-title-section">
+                <h1 id="level">level 1</h1>
+                <h2 id="level-icon">★☆☆</h2>
+            </div>
+            <img src="images/ho-img.png" alt="出題画像1" class="Issue-img-ho Issue-img" id="Issue-img">
+            <img src="images/oo-img.png" alt="出題画像2" class="Issue-img-oo Issue-img" id="Issue-img-oo">
+            <img src="images/to-img.png" alt="出題画像3" class="Issue-img-to Issue-img" id="Issue-img-to">
+            <label for="answer-input" id="answer-title">回答を入力</label>
+            <input type="text" id="answer-input">
+            <button id="answer-check">回答する</button>
+        </section>
+        <p id="answer-true" class="delete answer-true">正解です！おめでとうございます！</p>
+        <p id="answer-last-true" class="delete answer-last-true">これで問題は終了です！お疲れ様でした！</p>
+        <p id="answer-fale" class="delete answer-fale">不正解です。もう一度挑戦してください。</p>
+        <button id="retry" class="delete">リトライ</button>
+        <button id="next" class="delete">次のレベルへ</button>
+        <button id="back" class="delete">TOPに戻る</button>
+    </section>
+
+
+
+</body>
+
+</html>
